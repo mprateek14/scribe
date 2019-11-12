@@ -6,4 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".GroupChatActivity">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="45dp"
+        android:id="@+id/rvMessage"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#fff"
+        android:paddingTop="5dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etMesssage"
+        android:layout_weight="1"
+        android:textColor="#000"
+        android:hint="Enter Message">
+
+    </EditText>
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+
+            android:id="@+id/btnSend"
+            android:src="@drawable/ic_send"/>
+
+
+
+    </LinearLayout>
+    </RelativeLayout>
+
 </RelativeLayout>

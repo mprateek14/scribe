@@ -23,8 +23,8 @@
             android:layout_alignParentStart="true"
             >
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:src="@drawable/scribe"/>
             <View
@@ -46,6 +46,8 @@
                 android:layout_marginRight="-4dp"
                 android:id="@+id/email_ed_login"
                 android:maxLines="1"
+                android:textColor="#fff"
+                android:backgroundTint="#fff"
                 >
 
             </com.google.android.material.textfield.TextInputEditText>
@@ -68,6 +70,8 @@
                 android:id="@+id/password_ed_login"
                 android:maxLines="1"
                 android:inputType="textPassword"
+                android:textColor="#fff"
+                android:backgroundTint="#fff"
                 >
 
             </com.google.android.material.textfield.TextInputEditText>

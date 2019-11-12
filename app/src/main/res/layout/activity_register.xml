@@ -8,7 +8,7 @@
     android:paddingEnd="35dp"
     android:paddingStart="35dp"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".RegisterActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -23,8 +23,8 @@
             android:layout_alignParentStart="true"
             >
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:src="@drawable/scribe"/>
             <View
@@ -46,6 +46,8 @@
                 android:layout_marginRight="-4dp"
                 android:id="@+id/email_ed_register"
                 android:maxLines="1"
+                android:textColor="#fff"
+                android:backgroundTint="#fff"
                 >
 
             </com.google.android.material.textfield.TextInputEditText>
@@ -67,6 +69,8 @@
                 android:layout_marginRight="-4dp"
                 android:id="@+id/password_ed_register"
                 android:maxLines="1"
+                android:textColor="#fff"
+                android:backgroundTint="#fff"
                 android:inputType="textPassword"
                 />
             <View
@@ -87,6 +91,8 @@
                 android:id="@+id/name_ed_register"
                 android:maxLines="1"
                 android:inputType="text"
+                android:textColor="#fff"
+                android:backgroundTint="#fff"
                 >
 
             </com.google.android.material.textfield.TextInputEditText>
@@ -102,10 +108,10 @@
                 android:layout_marginRight="-4dp"
                 android:background="#3D8487"
                 android:text="SignUp"
-                android:onClick="RegisterUser"
+               android:onClick="RegisterUser"
                 android:textAllCaps="false"
                 android:textColor="#E9F4FF"
-                />
+                tools:ignore="OnClick" />
             <View
                 android:layout_width="match_parent"
                 android:layout_height="10dp"/>
